@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T16:40:13.593Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="-pLrQwGIHObYgqObMXIy" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-25T16:44:37.856Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="EyXiTvx5GjwFgMSsjp-A" version="14.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1271" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="982" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -163,6 +163,9 @@
         <mxCell id="Gp6RCWNLvrXACnUw41Ad-40" value="Creates Company" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="605" y="514" width="110" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="Gp6RCWNLvrXACnUw41Ad-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gp6RCWNLvrXACnUw41Ad-42" target="Gp6RCWNLvrXACnUw41Ad-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Gp6RCWNLvrXACnUw41Ad-42" value="DealerA &lt;br&gt;(Distributor B)" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e3c800;strokeColor=#B09500;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="744" y="547" width="87" height="87" as="geometry" />
         </mxCell>
@@ -180,6 +183,20 @@
         </mxCell>
         <mxCell id="Gp6RCWNLvrXACnUw41Ad-46" value="Create Dealer company" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="738" y="430" width="137" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Gp6RCWNLvrXACnUw41Ad-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.071;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gp6RCWNLvrXACnUw41Ad-49" target="Gp6RCWNLvrXACnUw41Ad-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="787.5" y="799.2352941176471" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gp6RCWNLvrXACnUw41Ad-49" value="DealerA_user" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="727.5" y="697" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gp6RCWNLvrXACnUw41Ad-53" value="" style="shape=orEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="771.5" y="803" width="32" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Gp6RCWNLvrXACnUw41Ad-54" value="Dealer L2 user&lt;br&gt;&amp;nbsp;can not create company" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="720" y="754" width="141" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
