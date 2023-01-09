@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T09:05:21.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="YZSd6zoxn4NKIyBlJJ6l" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-09T09:21:07.338Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ZepfH5KPxwaCTXWOG6Ny" version="20.8.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,12 +10,12 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="&lt;span style=&quot;color: rgb(36, 36, 36); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;ultraSync Champions&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dnxdo7aO6R9HoP1VlLdP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6">
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="dnxdo7aO6R9HoP1VlLdP-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dnxdo7aO6R9HoP1VlLdP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6">
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="dnxdo7aO6R9HoP1VlLdP-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="390" y="280" as="targetPoint" />
           </mxGeometry>
@@ -40,6 +40,30 @@
         </mxCell>
         <mxCell id="dnxdo7aO6R9HoP1VlLdP-5" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="70" y="190" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnxdo7aO6R9HoP1VlLdP-6" target="dnxdo7aO6R9HoP1VlLdP-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-6" value="Collect form fields from UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnxdo7aO6R9HoP1VlLdP-10" target="dnxdo7aO6R9HoP1VlLdP-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-10" value="Rake script reads data from xls files" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnxdo7aO6R9HoP1VlLdP-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-12" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Validation checks&lt;br&gt;1. Oracle Number must be unique&lt;br&gt;2. User Name if exists in ultraSync system, then append unique&amp;nbsp; string name to make unique username.&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="360" width="210" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
