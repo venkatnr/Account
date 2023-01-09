@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T10:35:04.137Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="fM-vol0d96bRC92SFBV1" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-09T11:54:19.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="SfEeVHxby9aij8I0h7pZ" version="20.8.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="794" dy="381" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="438" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -20,7 +20,7 @@
             <mxPoint x="579" y="249" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Rake Script?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Bulk Upload&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="359" y="139" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
@@ -54,30 +54,25 @@
             <mxPoint x="439" y="349" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dnxdo7aO6R9HoP1VlLdP-10" value="Rake script reads data from xls files" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-10" value="&amp;nbsp;Script reads data from xls files" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="519" y="249" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dnxdo7aO6R9HoP1VlLdP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnxdo7aO6R9HoP1VlLdP-12" target="dnxdo7aO6R9HoP1VlLdP-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="404" y="519" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-12" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Validation checks&lt;br&gt;Oracle Number exists&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="336" y="329" width="154" height="133" as="geometry" />
         </mxCell>
-        <mxCell id="dnxdo7aO6R9HoP1VlLdP-12" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Validation checks&lt;br&gt;1. Oracle Number must be unique&lt;br&gt;2. User Name if exists in ultraSync system, then append unique&amp;nbsp; string name to make unique username.&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="299" y="329" width="210" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="dnxdo7aO6R9HoP1VlLdP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnxdo7aO6R9HoP1VlLdP-16" target="dnxdo7aO6R9HoP1VlLdP-20">
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnxdo7aO6R9HoP1VlLdP-12" target="dnxdo7aO6R9HoP1VlLdP-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="289" y="719" as="targetPoint" />
+            <mxPoint x="353" y="576" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dnxdo7aO6R9HoP1VlLdP-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnxdo7aO6R9HoP1VlLdP-16" target="dnxdo7aO6R9HoP1VlLdP-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dnxdo7aO6R9HoP1VlLdP-16" value="Email id already exists in ultraSync system" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="344" y="539" width="120" height="60" as="geometry" />
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnxdo7aO6R9HoP1VlLdP-12" target="dnxdo7aO6R9HoP1VlLdP-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="473" y="576" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="dnxdo7aO6R9HoP1VlLdP-19" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="279" y="554" width="40" height="20" as="geometry" />
+          <mxGeometry x="266" y="374.5" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dnxdo7aO6R9HoP1VlLdP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;entryX=0.339;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnxdo7aO6R9HoP1VlLdP-20" target="dnxdo7aO6R9HoP1VlLdP-27">
           <mxGeometry relative="1" as="geometry">
@@ -85,53 +80,69 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dnxdo7aO6R9HoP1VlLdP-20" value="&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Send&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 11px; color: rgb(32, 33, 36); font-family: &amp;quot;Google Sans&amp;quot;, arial, sans-serif; text-align: start;&quot;&gt;amendment Contract DocuSign API&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="199" y="629" width="120" height="60" as="geometry" />
+          <mxGeometry x="179" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dnxdo7aO6R9HoP1VlLdP-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnxdo7aO6R9HoP1VlLdP-21" target="dnxdo7aO6R9HoP1VlLdP-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dnxdo7aO6R9HoP1VlLdP-21" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Send New Contract based on regions/company type etc. DocuSign API&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=9;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="489" y="629" width="120" height="60" as="geometry" />
+          <mxGeometry x="525" y="483" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dnxdo7aO6R9HoP1VlLdP-23" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="489" y="554" width="40" height="20" as="geometry" />
+          <mxGeometry x="509" y="374.5" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="dnxdo7aO6R9HoP1VlLdP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnxdo7aO6R9HoP1VlLdP-27" target="dnxdo7aO6R9HoP1VlLdP-35">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="404" y="909" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnxdo7aO6R9HoP1VlLdP-27" target="dnxdo7aO6R9HoP1VlLdP-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dnxdo7aO6R9HoP1VlLdP-27" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Trigger&amp;nbsp;DocuSign API to send out mail.&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="344" y="789" width="120" height="60" as="geometry" />
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-27" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Send notification mail to champion based on country type about new customer&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="322" y="602" width="142" height="84" as="geometry" />
         </mxCell>
         <mxCell id="dnxdo7aO6R9HoP1VlLdP-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnxdo7aO6R9HoP1VlLdP-35" target="dnxdo7aO6R9HoP1VlLdP-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="534" y="1029" as="targetPoint" />
-            <mxPoint x="464" y="939" as="sourcePoint" />
+            <mxPoint x="534" y="1124" as="targetPoint" />
+            <mxPoint x="464" y="1034" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="dnxdo7aO6R9HoP1VlLdP-30" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Needs to send reference/Notification mail to distribute list based on country type.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="319" y="689" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dnxdo7aO6R9HoP1VlLdP-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnxdo7aO6R9HoP1VlLdP-35" target="dnxdo7aO6R9HoP1VlLdP-42">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="269" y="1009" as="targetPoint" />
+            <mxPoint x="269" y="1104" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dnxdo7aO6R9HoP1VlLdP-35" value="Customer Signed" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#ffe6cc;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="346.5" y="899" width="115" height="80" as="geometry" />
+          <mxGeometry x="336" y="994" width="115" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dnxdo7aO6R9HoP1VlLdP-37" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="299" y="919" width="40" height="20" as="geometry" />
+          <mxGeometry x="299" y="1014" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dnxdo7aO6R9HoP1VlLdP-38" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="469" y="919" width="40" height="20" as="geometry" />
+          <mxGeometry x="469" y="1014" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dnxdo7aO6R9HoP1VlLdP-41" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;labelBackgroundColor=#FFE6CC;fontSize=9;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="529" y="999" width="30" height="30" as="geometry" />
+          <mxGeometry x="529" y="1094" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dnxdo7aO6R9HoP1VlLdP-42" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Can access ultraSync web/mobile application&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="199" y="999" width="120" height="60" as="geometry" />
+          <mxGeometry x="199" y="1094" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-43" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;** User Name if exists in UltraSync system,&lt;br&gt;&amp;nbsp;then from backend append some random&lt;br&gt;string to make user name&amp;nbsp; unique.&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="588" y="356.5" width="224" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;startArrow=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnxdo7aO6R9HoP1VlLdP-48" target="dnxdo7aO6R9HoP1VlLdP-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-44" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Trigger DocuSign API&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="322" y="742" width="142" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-46" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;** Create Company and &lt;br&gt;User accounts from backend and &lt;br&gt;make company status as Inactive.&lt;br&gt;status types: [active, rejected, inactive]&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="469" y="602" width="203" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnxdo7aO6R9HoP1VlLdP-44" target="dnxdo7aO6R9HoP1VlLdP-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="393" y="798" as="sourcePoint" />
+            <mxPoint x="393.5" y="994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnxdo7aO6R9HoP1VlLdP-48" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;DocuSign send email to email based on inputs.&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="322.5" y="861" width="142" height="56" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
